@@ -36,8 +36,7 @@ import HomeNavBar from '../Components/CommonComponents/HomeNavBar'
 const HomePage = () => {
   return (
     <>
-        <HomeNavBar />
-        
+      <HomeNavBar />
     </>
   )
 }
