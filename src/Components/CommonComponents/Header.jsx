@@ -151,7 +151,7 @@ const Header = () => {
         <Offcanvas.Body>
           <Navbar className="d-block px-3">
             <Nav.Link onClick={() => navigate("/")} className="py-2 border-top">
-              HOME
+              ANIS
             </Nav.Link>
 
             <Nav.Link onClick={() => navigate("/shop")} className="py-2 border-top">
