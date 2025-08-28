@@ -104,6 +104,7 @@ const PopularProducts = () => {
               <span>
                 <i className={`bi ${cartNotification.includes("removed") ? "bi-cart-x" : "bi-cart-check"} fs-4`}></i> {cartNotification}
               </span>
+              <br /><br />
               <span
                 className="border-bottom"
                 role="button"

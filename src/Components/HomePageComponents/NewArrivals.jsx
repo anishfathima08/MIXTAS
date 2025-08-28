@@ -81,6 +81,7 @@ const NewArrivals = () => {
                             ></i>{" "}
                             {cartNotification}
                             </span>
+                            <br /><br />
                             <span
                             className="border-bottom"
                             role="button"
