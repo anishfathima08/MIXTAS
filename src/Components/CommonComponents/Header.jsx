@@ -22,6 +22,7 @@ const Header = () => {
     handleShowRegister,
     handleCloseRegister,
     query,
+    setQuery,
     filteredProducts,
     cart,
     updateQuantity,
@@ -204,14 +205,20 @@ const Header = () => {
       {/* SEARCH PRODUCT CANVAS */}
 
       <Offcanvas show={showSearch} onHide={handleCloseSearch} placement="top" className="h-100">
-        <Offcanvas.Header closeButton className="mx-lg-5 mt-lg-5 mb-lg-3 fs-4"></Offcanvas.Header>
+        <Offcanvas.Header closeButton className="mx-lg-5 mt-lg-5 mb-lg-3 fs-4" />
         <Offcanvas.Body>
           <Container>
             <Row>
               <div className="col-lg-2"></div>
               <div className="col-lg-8 px-lg-5 text-secondary">
                 <div className="d-flex justify-content-between fs-3">
-                  <input type="text" placeholder="Product Search" className="border-0 search-box w-100" value={query} onChange={(e) => setQuery(e.target.value)} />
+                  <input
+                    type="text"
+                    placeholder="Product Search"
+                    className="border-0 search-box w-100"
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                  />
                   <i className="bi bi-search" role="button"></i>
                 </div>
                 <hr className="my-lg-4" />
@@ -224,9 +231,8 @@ const Header = () => {
                       <div
                         key={product.id}
                         className="col-lg-4 col-md-6 mb-4"
-                        onClick={() => {
-                          navigate(`/product/${product.id}`);
-                        }}>
+                        onClick={() => navigate(`/product/${product.id}`)}
+                      >
                         <img src={product.img} alt={product.desc} className="w-100" />
                         <div className="px-2 my-2">
                           <p>{product.product}</p>
@@ -236,7 +242,7 @@ const Header = () => {
                       </div>
                     ))
                   ) : (
-                    <p className="text-center w-100">No products found</p>
+                    query.trim() && <p className="text-center w-100">No products found</p>
                   )}
                 </Row>
               </div>

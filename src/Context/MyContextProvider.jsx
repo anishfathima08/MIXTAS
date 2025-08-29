@@ -46,15 +46,18 @@ const MyContextProvider = ({ children }) => {
     // SEARCH CANVAS FUNCTIONALITY
     
     const [query, setQuery] = useState("");
-    
+
     const filteredProducts =
     query.trim() === ""
-    ? []
-    : 
-    all_products_data?.filter(
-        (product, index, self) =>
-        (product.desc.toLowerCase().includes(query.toLowerCase()) || product.product.toLowerCase().includes(query.toLowerCase()) || product.price.toLowerCase().includes(query.toLowerCase())) &&
-        self.findIndex((p) => p.desc === product.desc) === index
+        ? []
+        : all_products_data?.filter(
+            (product, index, self) =>
+            (
+                product.desc.toLowerCase().includes(query.toLowerCase()) ||
+                product.product.toLowerCase().includes(query.toLowerCase()) ||
+                String(product.price).toLowerCase().includes(query.toLowerCase())
+            ) &&
+        self.findIndex((p) => p.id === product.id) === index
     );
 
     // CART FUNCTIONALITY 
@@ -213,7 +216,7 @@ const MyContextProvider = ({ children }) => {
         
         // SEARCH FUNCATIONALITY 
 
-        query, filteredProducts,
+        query, setQuery, filteredProducts,
 
         // CART FUNCTIONALITY 
 
