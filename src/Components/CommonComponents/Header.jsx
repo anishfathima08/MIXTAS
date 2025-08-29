@@ -99,7 +99,7 @@ const Header = () => {
 
             <Navbar className="d-none d-lg-flex fs-6">
               <Nav.Link onClick={() => navigate("/")} href="" className="px-3">
-                ANIS
+                HOME
               </Nav.Link>
               <Nav.Link onClick={() => navigate("/shop")} href="" className="px-3">
                 SHOP
