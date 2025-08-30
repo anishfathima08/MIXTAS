@@ -1,4 +1,4 @@
-# 🛒 MIXTAS  
+# 🛒 MIXTAS - E COMMERCE
 
 MIXTAS is a **modern e-commerce frontend project** built with **React, HTML, CSS, Bootstrap, and JavaScript**.  
 It provides a **responsive, user-friendly, and interactive shopping experience**, with features like **search, cart, wishlist, and dynamic product pages**.  
