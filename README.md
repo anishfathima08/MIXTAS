@@ -1,12 +1,63 @@
-# React + Vite
+# 🛒 MIXTAS  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MIXTAS is a **modern e-commerce frontend project** built with **React, HTML, CSS, Bootstrap, and JavaScript**.  
+It provides a **responsive, user-friendly, and interactive shopping experience**, with features like **search, cart, wishlist, and dynamic product pages**.  
+Smooth animations are added with **AOS** and **Swiper** for carousels/sliders.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
 
-## Expanding the ESLint configuration
+### 🛍️ User Features  
+- **Search functionality** to quickly find products  
+- **Add to Cart** with quantity increase/decrease  
+- **Add to Wishlist** to save favorite items  
+- **Responsive design** for all screen sizes  
+- **Smooth animations** with AOS (Animate on Scroll)  
+- **Swiper.js integration** for product carousels & sliders  
+- Multiple Pages:  
+  - Home  
+  - About  
+  - Contact  
+  - Shop  
+  - Product Dynamic Page  
+  - FAQ  
+  - My Account  
+  - Order Tracking  
+  - Blog  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack  
+
+| **Technology**   | **Purpose**                              |
+|------------------|-------------------------------------------|
+| **React.js**     | Frontend framework for UI/UX              |
+| **HTML5**        | Structure of the website                  |
+| **CSS3**         | Styling and layout                        |
+| **Bootstrap 5**  | Responsive grid system & UI components    |
+| **JavaScript**   | Interactive functionality                 |
+| **Swiper.js**    | Product slider & carousel                 |
+| **AOS**          | Smooth scroll animations                  |
+
+---
+
+## Live Demo  
+- [Vercel Link](https://mixtas-saf.vercel.app/)  
+
+---
+
+## Installation  
+
+To run this project locally:  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/anishfathima08/Mixtas.git
+   cd Mixtas
+
+2. Run using this command 'npm install npm run dev'
+
+3. Enjoy exploring the MIXTAS E COMMERCE Website! 
+
+Thank you for visiting MIXTAS Website!
