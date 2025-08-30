@@ -15,7 +15,7 @@ Smooth animations are added with **AOS** and **Swiper** for carousels/sliders.
 - **Responsive design** for all screen sizes  
 - **Smooth animations** with AOS (Animate on Scroll)  
 - **Swiper.js integration** for product carousels & sliders  
-- Multiple Pages:  
+- **Multiple Pages**:  
   - Home  
   - About  
   - Contact  
